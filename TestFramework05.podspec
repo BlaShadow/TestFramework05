@@ -11,12 +11,14 @@ Pod::Spec.new do |s|
   s.name         = "TestFramework05"
   s.version      = "0.0.1"
   s.summary      = "A short description of TestFramework05."
-  s.description  = "A short description of TestFramework05. A short description of TestFramework05. "
+  s.description  = "A short description of TestFramework05. A short description of TestFramework05. A short description of TestFramework05."
+  s.homepage     = "https://github.com"
   s.license      = "MIT"
   s.author             = { "blashadow" => "blackzerogamer@gmail.com" }
   s.social_media_url   = "http://twitter.com/blashadow"
   s.platform     = :ios, "11.0"
-  s.source       = { :git => "https://github.com/BlaShadow/TestFramework05", :tag => "#{s.version}" }
+  s.swift_version = '4.1'
+  s.source       = { :git => "https://github.com/BlaShadow/TestFramework05.git", :tag => "#{s.version}" }
   s.source_files  = "TestFramework05/**/*"
 
 end
